@@ -56,13 +56,16 @@
     background-color: #C2EFD4;
 }
 
-.section1 { /* Убрать скролл вправо, не работает изза этого класса, дива */
+.section1 {
     display: flex;
     flex-direction: row;
     width: 100%;
-    margin: 0px 300px;
     align-items: center;
     gap: 100px;
+    justify-content: space-around;
+    background: #C2EFD4;
+    padding-bottom: 67px;
+    padding-top: 67px;
 }
 
 .section1_left {
@@ -85,7 +88,7 @@
     font-family: Poppins;
     font-weight: 500;
     font-style: Medium;
-    font-size: 24px;
+    font-size: 30px;
     line-height: 220.00000000000003%;
     letter-spacing: 0%;
     color: #267D49;
@@ -109,4 +112,54 @@
 .figure {
     background-color: #6BC785;
     border-radius: 20% 8% 20% 15%;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section2_images {
+    display: flex;
+    flex-direction: row;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row;
+}
+
+.section2_top__text1 {
+    font-family: Roboto Slab;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #224F34;
+    font-weight: bolder;
+}
+
+.section2_top__text2 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #224F34;
+}
+
+.section2_top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 37px;
+}
+
+.section2 {
+    padding-top: 114px;
+    padding-bottom: 
 }
