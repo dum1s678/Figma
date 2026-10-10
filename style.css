@@ -107,6 +107,7 @@
     width: 258px;
     height: 74px;
     border-radius: 3px;
+    box-shadow: 10px 35px 30px rgba(0, 0, 0, 0.199);
 }
 
 .figure {
@@ -166,17 +167,7 @@
     
 }
 
-.girl1{
-    background-color: #93B9A2;;
-}
 
-.girl2 {
-    background-color: #A9D4BA;
-}
-
-.girl3 {
-    background-color: #DDECE2;
-}
 
 .imgtext {
     display: flex;
@@ -232,4 +223,19 @@
     line-height: 100%;
     letter-spacing: 0%;
     color: #224F34;
+}
+.section3{
+    display: flex;
+    flex-direction: column;
+}
+.cards{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
 }
