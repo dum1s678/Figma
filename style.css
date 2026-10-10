@@ -7,7 +7,7 @@
 .header {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     background-color: #C2EFD4;
     padding-top: 55px;
@@ -62,7 +62,7 @@
     width: 100%;
     align-items: center;
     gap: 100px;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background: #C2EFD4;
     padding-bottom: 67px;
     padding-top: 67px;
@@ -123,6 +123,7 @@
 .section2_images {
     display: flex;
     flex-direction: row;
+    gap: 50px;
 }
 
 .rating {
@@ -157,9 +158,78 @@
     justify-content: center;
     align-items: center;
     gap: 37px;
+    padding-bottom: 80px;
 }
 
 .section2 {
     padding-top: 114px;
-    padding-bottom: 
+    
+}
+
+.girl1{
+    background-color: #93B9A2;;
+}
+
+.girl2 {
+    background-color: #A9D4BA;
+}
+
+.girl3 {
+    background-color: #DDECE2;
+}
+
+.imgtext {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Poppins;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 40px;
+    gap: 20px;
+}
+
+.imgtext1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.section2_button {
+    display: flex;
+    width: 224;
+    height: 65;
+    top: 2236px;
+    left: 752px;
+    opacity: 1;
+    border-radius: 3px;
+    border-width: 2px;
+    padding-top: 16px;
+    padding-right: 55px;
+    padding-bottom: 16px;
+    padding-left: 55px;
+    gap: 10px;
+    border: 2px solid #224F34;
+    margin-bottom: 210px;   
+    margin-top: 50px;
+}
+
+.section2_button__text {
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #224F34;
 }
