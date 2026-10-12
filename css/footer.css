@@ -1,0 +1,134 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 154px;
+    background-color: #224F34;
+    margin-top: 193px;
+}
+
+.footer_top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer_bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 82px;
+    gap: 35px;
+}
+
+.footer_left {
+    display: flex;
+    margin-top: 80px;
+    flex-direction: column;
+    gap: 26px;
+
+}
+
+.footer_leftcenter,
+.footer_rightcenter,
+.footer_right {
+    display: flex;
+    margin-top: 105px;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.footer_leftcenter__text1,
+.footer_rightcenter__text1 {
+    display: flex;
+    margin-bottom: 7px;
+}
+
+.footer_left__logo {
+    display: flex;
+    margin-bottom: 18px;
+    font-family: Elephant;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.footer_leftcenter__text,
+.footer_rightcenter__text {
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: #C2EFD4;
+}
+
+.footer_leftcenter__text1,
+.footer_rightcenter__text1,
+.footer_right__text {
+    font-family: Roboto Slab;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer_bottom,
+.footer_left__text {
+    font-family: Poppins;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+.footer_bottom__line {
+    opacity: 1;
+    border-width: 2px;
+    height: 2px;
+    width: 1090px;
+}
+
+.footer_left__icons {
+    display: flex;
+    gap: 36px;
+}
+
+.footer_right__button {
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    border: 2px solid #A3F3BE;
+    background-color: #A3F3BE;
+    color: #224F34;
+    width: 115px;
+    height: 57px;
+}
+
+.footer_right__field {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_right__input {
+    display: flex;
+    background-color: #224F34;
+    color: #FFFFFF;
+    height: 57px;
+    width: 372px;
+}
