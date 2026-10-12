@@ -66,6 +66,7 @@
     background: #C2EFD4;
     padding-bottom: 67px;
     padding-top: 67px;
+    height: calc(100vh - 101px);
 }
 
 .section1_left {
